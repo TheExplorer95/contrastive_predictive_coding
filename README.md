@@ -8,17 +8,15 @@ How to use the code:
 
 To interact with the Framework on a more low level handling of the parameters and models check out the README file inside the scripts folder.
 
+Folders:
 
-/Data conversion: scripts to convert data
+1. /Data conversion: scripts to convert data
+2. /models: trained model weights
+3. /history: .npy of training results, call with np.load(allow_pickle=True).item()
+4. /scripts: python scripts to run the model
+5. /Music from Youtube.pdf: how to acquire the dataset for testing the classifier
 
-/models: trained model weights
-
-/history: .npy of training results, call with np.load(allow_pickle=True).item()
-
-/scripts: python scripts to run the model
-
-/Music from Youtube.pdf: how to acquire the dataset for testing the classifier
-
+Files:
  - params.py: only file to change
  - train_cpc.py: train cpc and save weights
  - generate_embeddings.py: generate embeddings using trained cpc
