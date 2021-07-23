@@ -1,4 +1,6 @@
-How to:
+# Solving music genere classification with ease of a contrastive predictive coding model
+
+How to use the code:
 
 1. Acquire the following datasets: GTZAN (/data/GTZAN), fma_small (/data/fma_small_mono_wav) and youtube (/data/test_data) and place them into their respective folder
 3. Set the desired model to train within run_experiment.sh [1dconv_gru/, 1dconv_transformer/, 2dconv_gru/]
