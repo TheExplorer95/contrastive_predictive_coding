@@ -1,6 +1,6 @@
 # Solving music genere classification with ease of a contrastive predictive coding model
 
-How to use the code:
+**How to** use the code:
 
 1. Acquire the following datasets: GTZAN (/data/GTZAN), fma_small (/data/fma_small_mono_wav) and youtube (/data/test_data) and place them into their respective folder
 3. Set the desired model to train within run_experiment.sh [1dconv_gru/, 1dconv_transformer/, 2dconv_gru/]
@@ -8,7 +8,7 @@ How to use the code:
 
 To interact with the Framework on a more low level handling of the parameters and models check out the README file inside the scripts folder.
 
-Folders:
+**Folders**
 
 1. /Data conversion: scripts to convert data
 2. /models: trained model weights
@@ -16,7 +16,8 @@ Folders:
 4. /scripts: python scripts to run the model
 5. /Music from Youtube.pdf: how to acquire the dataset for testing the classifier
 
-Files:
+**Files**
+
  - params.py: only file to change
  - train_cpc.py: train cpc and save weights
  - generate_embeddings.py: generate embeddings using trained cpc
